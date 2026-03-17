@@ -1,0 +1,8 @@
+baseURL = "https://augustofmarques.github.io/playground/"
+title = "Wolframium's Playground"
+theme = "hugo-primer-blog"
+
+defaultContentLanguage = "en-us"
+
+[params]
+  defaultTheme = "dark"
