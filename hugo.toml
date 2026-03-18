@@ -1,8 +1,83 @@
 baseURL = "https://augustofmarques.github.io/playground/"
 title = "Wolframium's Playground"
 theme = "hugo-primer-blog"
-
-defaultContentLanguage = "en-us"
+canonifyURLs = true
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 
 [params]
-  defaultTheme = "dark"
+    sidebar = true
+    defaultTheme = "auto"
+    showReadingTime = true
+    showAuthor = true
+    faviconIco = "favicon.ico"
+
+    #sidebar specific params
+    [[params.sidebarModules]]
+        partial = "recentPosts"
+
+    [[params.sidebarModules]]
+        partial = "tags"
+
+    #social links.
+    [params.social]
+        github = "augustofmarques"
+
+
+    [[menus.main]]
+        name = "Quick Reference Handbook"
+        url = "/qrh"
+        weight = 1
+
+[languages]
+
+    [languages.en]
+        languageName = "English"
+        weight = 1
+        contentDir = "content/en"
+
+            [[languages.en.menus.main]]
+                name = "Start"
+                url = "/en/"
+                weight = 1
+
+            [[languages.en.menus.main]]
+                name = "Playground"
+                url = "/en/posts/"
+                weight = 2
+
+            [[languages.en.menus.main]]
+                name = "About"
+                url = "/en/about/"
+                weight = 3
+
+            [[languages.en.menus.main]]
+                name = "Quick Reference Handbook"
+                url = "/en/qrh/"
+                weight = 4
+
+
+    [languages.pt]
+        languageName = "Português"
+        weight = 2
+        contentDir = "content/pt"
+
+            [[languages.pt.menus.main]]
+                name = "Início"
+                url = "/pt/"
+                weight = 1
+
+            [[languages.pt.menus.main]]
+                name = "Playground"
+                url = "/pt/posts/"
+                weight = 2
+
+            [[languages.pt.menus.main]]
+                name = "Sobre"
+                url = "/pt/about/"
+                weight = 3
+
+            [[languages.pt.menus.main]]
+                name = "Quick Reference Handbook"
+                url = "/pt/qrh/"
+                weight = 4

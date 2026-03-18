@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wolframium&#39;s Playground</title>
+    <link>http://localhost:1313/playground/pt/</link>
+    <description>Recent content on Wolframium&#39;s Playground</description>
+    <generator>Hugo</generator>
+    <language>pt</language>
+    <lastBuildDate>Tue, 17 Mar 2026 19:28:33 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/playground/pt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quick Reference Handbook</title>
+      <link>http://localhost:1313/playground/pt/qrh/quick-reference-handbook/</link>
+      <pubDate>Tue, 17 Mar 2026 19:28:33 -0300</pubDate>
+      <guid>http://localhost:1313/playground/pt/qrh/quick-reference-handbook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ola mundo</title>
+      <link>http://localhost:1313/playground/pt/posts/ola-mundo/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/playground/pt/posts/ola-mundo/</guid>
+      <description>&lt;p&gt;Ola mundo!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sobre mim</title>
+      <link>http://localhost:1313/playground/pt/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/playground/pt/about/</guid>
+      <description>&lt;p&gt;Escreva informação sobre mim aqui.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
