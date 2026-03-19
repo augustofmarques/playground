@@ -1,4 +1,4 @@
-baseURL = "https://augustofmarques.github.io/playground/"
+baseURL = "https://augustofmarques.github.io/"
 title = "Wolframium's Playground"
 theme = "hugo-primer-blog"
 canonifyURLs = true
